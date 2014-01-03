@@ -1,0 +1,18 @@
+{
+  "name": "topplersnode",
+  "version": "1.0.0",
+  "description": "Topplers Node.JS Test Server",
+  "main": "topplers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phil6kites/topplersnode.git"
+  },
+  "author": "phil6kites",
+  "license": "Proprietary",
+  "bugs": {
+    "url": "https://github.com/phil6kites/topplersnode/issues"
+  }
+}
