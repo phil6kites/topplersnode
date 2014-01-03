@@ -14,5 +14,9 @@
   "license": "Proprietary",
   "bugs": {
     "url": "https://github.com/phil6kites/topplersnode/issues"
+  },
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.7"
   }
 }
