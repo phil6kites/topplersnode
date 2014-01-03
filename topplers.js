@@ -12,6 +12,8 @@ app.get('/', function(req, res) {
 
 app.get('/topplers/test', function(req, res) {
 
+	console.log(req);
+
 	var json_test = {"this":"is", "a":"test"};
 
 	res.json(json_test);
