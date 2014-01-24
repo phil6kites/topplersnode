@@ -35,6 +35,8 @@ app.get('/topplers/test', function(req, res) {
 app.post('/paypal/ipn', function(req, res) {
 
 	console.log(req);
+
+	res.send(200);
 });
 
 app.post('/orders/new', function(req, res) {
