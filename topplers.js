@@ -34,9 +34,24 @@ app.get('/topplers/test', function(req, res) {
 
 app.post('/paypal/ipn', function(req, res) {
 
-	console.log(req);
+	//console.log(req);
 
 	res.send(200);
+
+	var params = req.body;
+
+	var item_name = params.item_name;
+	var item_number = params.item_number;
+	var payment_status = params.payment_status;
+	var payment_amount = params.mc_gross;
+	var payment_currency = params.mc_currency;
+	var txn_id = params.txn_id;
+	var receiver_email = params.receiver_email;
+	var payer_email = params.payer_email;
+
+	console.log("***");
+	console.log("*** item_name = " + item_name + ", item_number = " + item_number + ", payment_amount = " + payment_amount);
+	console.log("***");
 });
 
 app.post('/orders/new', function(req, res) {
